@@ -5,7 +5,7 @@
 def total_and_smallest
   data = [23, 15, 8, 16, 4, 42]
   smallest = data.first
-  total = total()
+  total = total(data)
   total = 0
   data.each do |d|
     total += d
@@ -16,7 +16,7 @@ def total_and_smallest
   [total, smallest]
 end
 
-def total(data = [])
+def total(data = [], smallest = 0)
   total = 0
   data.each do |d|
     total += d
