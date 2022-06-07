@@ -31,6 +31,7 @@ def smallest(data=[])
       smallest = d
     end
   end
+  smallest
 end
 
 # Apply the "replace loop with pipeline" refactoring.
