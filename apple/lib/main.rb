@@ -21,4 +21,5 @@ def newlines
   result << "\n"
   result << "\n"
   result << "\n"
+  result
 end
