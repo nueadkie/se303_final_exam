@@ -4,9 +4,7 @@
 
 def total_and_smallest
   data = [23, 15, 8, 16, 4, 42]
-  smallest = data.first
-  total = total(data)
-  [total, smallest(data)]
+  [total(data), smallest(data)]
 end
 
 def total(data = [])
