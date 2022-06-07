@@ -17,14 +17,14 @@ def total_and_smallest
 end
 
 def total(data = [])
-  0
+  total = 0
   data.each do |d|
     total += d
     if d < smallest
       smallest = d
     end
   end
-  data
+  total
 end
 
 # Apply the "replace loop with pipeline" refactoring.
