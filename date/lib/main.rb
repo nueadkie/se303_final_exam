@@ -43,3 +43,6 @@ class Farm
   end
 
 end
+
+class Plant
+end
