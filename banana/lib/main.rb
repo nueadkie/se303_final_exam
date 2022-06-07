@@ -25,5 +25,8 @@ end
 class TripletSentence
   attr_reader :beginning, :middle, :conclusion
   def initialization(beginning = "", middle = "", conclusion = "")
+    @beginning = beginning
+    @middle = middle
+    @conclusion = conclusion
   end
 end
