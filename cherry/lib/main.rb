@@ -24,6 +24,9 @@ def total(data = [])
   total
 end
 
+def smallest
+end
+
 # Apply the "replace loop with pipeline" refactoring.
 
 def repeat
