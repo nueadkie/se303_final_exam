@@ -29,4 +29,7 @@ class TripletSentence
     @middle = middle
     @conclusion = conclusion
   end
+
+  def word_count
+  end
 end
