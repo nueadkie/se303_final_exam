@@ -13,7 +13,7 @@ def total_and_smallest
       smallest = d
     end
   end
-  [total, smallest]
+  [total, smallest(data)]
 end
 
 def total(data = [])
