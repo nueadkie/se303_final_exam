@@ -15,4 +15,10 @@ def story
 end
 
 def newlines
+  middle = ""
+  middle << "\n"
+  middle << "\n"
+  middle << "\n"
+  middle << "\n"
+  middle << "\n"
 end
