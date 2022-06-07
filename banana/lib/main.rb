@@ -20,4 +20,7 @@ def period_count(beginning, middle, conclusion)
 end
 
 class TripletSentence
+  attr_reader :beginning, :middle, :conclusion
+  def initialization(beginning = "", middle = "", conclusion = "")
+  end
 end
