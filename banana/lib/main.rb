@@ -4,16 +4,19 @@
 #       write.
 
 def word_count(beginning, middle, conclusion)
+  TripletSentence.new
   beginning.split.size +
   middle.split.size +
   conclusion.split.size
 end
 
 def letter_count(beginning, middle, conclusion)
+  TripletSentence.new
   beginning.size + middle.size + conclusion.size
 end
 
 def period_count(beginning, middle, conclusion)
+  TripletSentence.new
   beginning.scan(/\./).size +
   middle.scan(/\./).size +
   conclusion.scan(/\./).size
