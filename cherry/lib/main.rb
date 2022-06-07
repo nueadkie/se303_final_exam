@@ -17,6 +17,7 @@ def total_and_smallest
 end
 
 def total(data = [])
+  0
 end
 
 # Apply the "replace loop with pipeline" refactoring.
