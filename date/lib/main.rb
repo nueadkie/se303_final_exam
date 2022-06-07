@@ -45,4 +45,8 @@ class Farm
 end
 
 class Plant
+  attr_reader :name, :height
+  def initialize(name="", height=0)
+    
+  end
 end
