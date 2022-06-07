@@ -18,6 +18,13 @@ end
 
 def total(data = [])
   0
+  data.each do |d|
+    total += d
+    if d < smallest
+      smallest = d
+    end
+  end
+  data
 end
 
 # Apply the "replace loop with pipeline" refactoring.
