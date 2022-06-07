@@ -5,6 +5,7 @@
 def total_and_smallest
   data = [23, 15, 8, 16, 4, 42]
   smallest = data.first
+  total = total()
   total = 0
   data.each do |d|
     total += d
@@ -15,7 +16,7 @@ def total_and_smallest
   [total, smallest]
 end
 
-def total
+def total(data = [])
 end
 
 # Apply the "replace loop with pipeline" refactoring.
