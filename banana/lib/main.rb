@@ -4,7 +4,7 @@
 #       write.
 
 def word_count(beginning, middle, conclusion)
-  TripletSentence.new
+  TripletSentence.new.word_count
   beginning.split.size +
   middle.split.size +
   conclusion.split.size
